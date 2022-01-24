@@ -2,7 +2,8 @@ body{
     font-family: 'Poppins',
     sans-serif;
     font-family: 'Roboto Condensed',
-    sans-serif
+    sans-serif;
+    margin: 0%;
 }
 h1{
     text-align: center;
@@ -173,7 +174,7 @@ h1{
 }
 
 .venue p {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 30px;
     color: #333;
 }
@@ -202,27 +203,17 @@ h1{
 }
 
 .party p {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 30px;
     color: #333;
 }
 
-footer {
-    width: 100%;
-    height: auto;
-    color: #ddd;
-    font-size: 30px;
-    font-family: monospace;
-    background-color: #555;
-    margin-top: 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-footer i {
-    color: skyblue;
-    font-size: 30px;
-    margin-left: 20px;
+
+.footer-section{
+    background-color: black;
+    color: white;
+    height: 250px;
+   text-align-last: left;
+   justify-content: space-evenly;
 }
